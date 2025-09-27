@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+.top-banner-row {
+  background-color: #ffecec !important; /* light red background */
+  color: #b30000 !important; /* dark red text */
+  font-weight: bold;
+}
+
+/* Fallback for line-clamp-4 without the plugin */
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@layer components {
+  .text-label {
+    @apply font-semibold text-base mb-0;
+  }
+  .card-show {
+    @apply rounded-2xl shadow-[4px_4px_16px_0px_#00000014];
+  }
+  .flex-align {
+    @apply flex justify-center items-center;
+  }
+  .chat-btn {
+    @apply text-sm border border-red-500 text-red-500 px-3 py-1 rounded-full hover:bg-red-50 transition;
+  }
+  .responsive-container {
+    @apply mx-[10px] my-[20px] md:mx-[60px] md:my-[24px];
+  }
+}
+.custom-select .ant-select-selector {
+  background-color: #781128 !important; /* secondary color */
+  color: white !important;
+  border: none;
+}
+
+.custom-select .ant-select-selection-item {
+  color: white !important;
+}
+
+.custom-select .ant-select-arrow {
+  color: white !important;
+}
+
+/* Highlight active menu item */
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: #1677ff !important; /* blue background */
+  color: #fff !important; /* white text */
+  font-weight: bold;
+  border-radius: 6px; /* rounded corners */
+}
+
+/* Icon color when active */
+.ant-menu-dark .ant-menu-item-selected .anticon {
+  color: #fff !important;
+}
+
+/* .ant-select-dropdown {
+  background-color: #781128 !important;
+} */
+
+.ant-select-item-option-content {
+  color: black !important;
+}
+
+@media (max-width: 700px) {
+  .mabileWidthProductGrid {
+    minwidth: "350px";
+  }
+}

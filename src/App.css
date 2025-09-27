@@ -1,0 +1,161 @@
+#root {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  text-align: center; */
+}
+
+
+/* Top header background */
+.custom-calendar .rmdp-header {
+  background-color: #781128; /* maroon */
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+  padding: 8px 12px;
+  min-width: 320px;
+  width: 330px;
+}
+
+/* Month and Year text */
+.custom-calendar .rmdp-header-values {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.custom-calendar .rmdp-week{
+  min-width: 300px;
+  width: 320px;
+}
+
+/* @media (max-width: 480px) {
+  .custom-calendar {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .custom-calendar .rmdp-header {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .custom-calendar .rmdp-header-values {
+    font-size: 0.9rem; 
+  }
+} */
+
+/* header arrows - new */
+.custom-calendar .rmdp-header button {
+  color: #ffffff;
+  font-size: 18px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-calendar .rmdp-header button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+/* weekday names */
+.custom-calendar .rmdp-week-day {
+  color: #781128;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* day cells default */
+.custom-calendar .rmdp-day span {
+  font-size: 14px;
+}
+
+/* selected days */
+.custom-calendar .rmdp-day.rmdp-selected span {
+  background-color: #781128 !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+}
+
+/* hover effect on days */
+.custom-calendar .rmdp-day span:hover {
+  background-color: rgba(120, 17, 40, 0.2);
+  color: #781128;
+}
+
+/* calendar grid background */
+.custom-calendar .rmdp-calendar {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.custom-modal .ant-modal-content {
+  padding: 0 !important;
+}
+
+ .custom_tab .ant-tabs-tab-active .ant-tabs-tab-btn {
+color: #781128 !important;
+font-weight: 700;
+}
+.custom_tab .ant-tabs-ink-bar {
+ background: #781128 !important;
+height: 4px !important;
+}
+
+ .follow_tab .ant-tabs-tab-active .ant-tabs-tab-btn {
+color: black !important;
+}
+.follow_tab .ant-tabs-ink-bar {
+ background:#FAB62D !important;
+height: 3px !important;
+}
+
+ .booking-tab .ant-tabs-tab-active .ant-tabs-tab-btn {
+color: #FAB62D !important;
+font-weight: 700;
+}
+.booking-tab .ant-tabs-ink-bar {
+ background: #FAB62D !important;
+height: 4px !important;
+}
+
+/* Red radio customization */
+.red-radio .ant-radio-wrapper:hover .ant-radio .ant-radio-inner {
+  border-color: #781128 !important;
+}
+
+.red-radio .ant-radio-checked .ant-radio-inner {
+  background-color: #781128 !important;
+  border-color: #781128 !important;
+}
+
+.red-radio .ant-radio-checked::after {
+  border: 1px solid #781128 !important;
+}
+
+.red-radio .ant-radio-inner:hover {
+  border-color: #781128 !important;
+}
+
+.red-radio .ant-radio:focus-within .ant-radio-inner {
+  border-color: #781128 !important;
+  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2) !important;
+}
+
+.hidden-file-input {
+  display: none !important;
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+
+
+
